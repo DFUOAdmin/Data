@@ -1,0 +1,26 @@
+using System;
+
+namespace Server.Factions
+{
+	public class Vesper : Town
+	{
+		public Vesper()
+		{
+			Definition =
+				new TownDefinition(
+					5,
+					0x186E,
+					"Vesper",
+					"Vesper",
+					new TextDefinition( "VESPER" ),
+					new TextDefinition( "TOWN STONE FOR VESPER" ),
+					new TextDefinition( "The Faction Sigil Monolith of Vesper" ),
+					new TextDefinition( "The Faction Town Sigil Monolith of Vesper" ),
+					new TextDefinition( "Faction Town Stone of Vesper" ),
+					new TextDefinition( "Faction Town Sigil of Vesper" ),
+					new TextDefinition( "Corrupted Faction Town Sigil of Vesper" ),
+					new Point3D( 2982, 818, 0 ),
+					new Point3D( 2985, 821, 0 ) );
+		}
+	}
+}

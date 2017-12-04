@@ -1,0 +1,26 @@
+using System;
+
+namespace Server.Factions
+{
+	public class Britain : Town
+	{
+		public Britain()
+		{
+			Definition =
+				new TownDefinition(
+					0,
+					0x1869,
+					"Britain",
+					"Britain",
+					new TextDefinition( "BRITAIN" ),
+					new TextDefinition( "TOWN STONE FOR BRITAIN" ),
+					new TextDefinition( "The Faction Sigil Monolith of Britain" ),
+					new TextDefinition( "The Faction Town Sigil Monolith of Britain" ),
+					new TextDefinition( "Faction Town Stone of Britain" ),
+					new TextDefinition( "Faction Town Sigil of Britain" ),
+					new TextDefinition( "Corrupted Faction Town Sigil of Britain" ),
+					new Point3D( 1592, 1680, 10 ),
+					new Point3D( 1588, 1676, 10 ) );
+		}
+	}
+}

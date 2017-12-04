@@ -1,0 +1,46 @@
+<html>
+   <head>
+      <title>RunUO Documentation - Class Overview - BaseEvoMount</title>
+   </head>
+   <body bgcolor="white" style="font-family: Courier New" text="#000000" link="#000000" vlink="#000000" alink="#808080">
+      <h4><a href="../namespaces/Xanthos.Evo.html">Back to Xanthos.Evo</a></h4>
+      <h2>BaseEvoMount : <!-- DBG-1 --><a href="BaseMount.html">BaseMount</a>, <!-- DBG-2.2 --><a href="IHued.html">IHued</a>, <!-- DBG-2.1 --><font color="blue">IComparable</font>&lt;<a href="Mobile.html">Mobile</a>&gt;, <!-- DBG-2.2 --><a href="ISerializable.html">ISerializable</a>, <!-- DBG-2.2 --><a href="ISpawnable.html">ISpawnable</a>, <!-- DBG-2.2 --><a href="IEntity.html">IEntity</a>, <!-- DBG-2.2 --><a href="IPoint3D.html">IPoint3D</a>, <!-- DBG-2.2 --><a href="IPoint2D.html">IPoint2D</a>, <!-- DBG-2.1 --><font color="blue">IComparable</font>, <!-- DBG-2.1 --><font color="blue">IComparable</font>&lt;<a href="IEntity.html">IEntity</a>&gt;, <!-- DBG-2.2 --><a href="IHonorTarget.html">IHonorTarget</a>, <!-- DBG-2.2 --><a href="IQuestGiver.html">IQuestGiver</a>, <!-- DBG-2.2 --><a href="IMount.html">IMount</a>, <!-- DBG-2.2 --><font color="blue">IEvoCreature</font></h2>
+      (<font color="blue">ctor</font>) BaseEvoMount( <!-- DBG-0 --><a href="Serial.html">Serial</a> serial )<br>
+      (<font color="blue">ctor</font>) BaseEvoMount( <font color="blue">string</font> name, <font color="blue">int</font> bodyID, <font color="blue">int</font> itemID )<br>
+      <font color="blue">bool</font> AddPointsOnDamage( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> AddPointsOnMelee( <font color="blue">get</font>; )<br>
+      <font color="blue">string</font> Breed( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> CanHue( <font color="blue">get</font>; )<br>
+      DateTime DeliveryDate( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> Ep( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <!-- DBG-0 --><a href="BaseAI.html">BaseAI</a> ForcedAI( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> HasEgg( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> MaxTrainingStage( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> MountStage( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> Pregnant( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> ProducesYoung( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      TimeSpan RemainingTerm( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> Stage( <font color="blue">get</font>; )<br>
+      <font color="blue">void</font> AddPoints( <!-- DBG-0 --><a href="Mobile.html">Mobile</a> defender )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Damage( <font color="blue">int</font> amount, <!-- DBG-0 --><a href="Mobile.html">Mobile</a> defender )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Deserialize( <!-- DBG-0 --><a href="GenericReader.html">GenericReader</a> reader )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> EvoAction_Callback( <!-- DBG-0 --><a href="Mobile.html">Mobile</a> from, <font color="blue">bool</font> okay, <font color="blue">object</font> state )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Evolve( <font color="blue">bool</font> hatching )<br>
+      <font color="blue">virtual</font> Type GetEvoDustType()<br>
+      <font color="blue">virtual</font> <!-- DBG-0 --><a href="DreadHornEvoBaseEgg.html">DreadHornEvoBaseEgg</a> GetEvoEgg()<br>
+      <font color="blue">int</font> GetEvoHue( <!-- DBG-0 --><a href="BaseEvoSpec.html">BaseEvoSpec</a> spec, <!-- DBG-0 --><a href="BaseEvoStage.html">BaseEvoStage</a> stage )<br>
+      <font color="blue">virtual</font> <!-- DBG-0 --><a href="BaseEvoSpec.html">BaseEvoSpec</a> GetEvoSpec()<br>
+      <font color="blue">virtual</font> <font color="blue">int</font> GetMaxResistance( <!-- DBG-0 --><a href="ResistanceType.html">ResistanceType</a> type )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Init()<br>
+      <font color="blue">void</font> InitAI()<br>
+      <font color="blue">void</font> LoadSpecValues()<br>
+      <font color="blue">void</font> MatingTarget_Callback( <!-- DBG-0 --><a href="Mobile.html">Mobile</a> from, <font color="blue">object</font> obj )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnBeforeSpawn( <!-- DBG-0 --><a href="Point3D.html">Point3D</a> location, <!-- DBG-0 --><a href="Map.html">Map</a> m )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnDoubleClick( <!-- DBG-0 --><a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> OnDragDrop( <!-- DBG-0 --><a href="Mobile.html">Mobile</a> from, <!-- DBG-0 --><a href="Item.html">Item</a> dropped )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnGaveMeleeAttack( <!-- DBG-0 --><a href="Mobile.html">Mobile</a> defender )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnThink()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> PackSpecialItem()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Serialize( <!-- DBG-0 --><a href="GenericWriter.html">GenericWriter</a> writer )<br>
+   </body>
+</html>

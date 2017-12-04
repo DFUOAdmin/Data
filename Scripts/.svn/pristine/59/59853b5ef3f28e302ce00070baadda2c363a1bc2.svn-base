@@ -1,0 +1,26 @@
+using System;
+
+namespace Server.Factions
+{
+	public class SkaraBrae : Town
+	{
+		public SkaraBrae()
+		{
+			Definition =
+				new TownDefinition(
+					6,
+					0x186F,
+					"Skara Brae",
+					"Skara Brae",
+					new TextDefinition( "SKARA BRAE" ),
+					new TextDefinition( "TOWN STONE FOR SKARA BRAE" ),
+					new TextDefinition( "The Faction Sigil Monolith of Skara Brae" ),
+					new TextDefinition( "The Faction Town Sigil Monolith of Skara Brae" ),
+					new TextDefinition( "Faction Town Stone of Skara Brae" ),
+					new TextDefinition( "Faction Town Sigil of Skara Brae" ),
+					new TextDefinition( "Corrupted Faction Town Sigil of Skara Brae" ),
+					new Point3D( 576, 2200, 0 ),
+					new Point3D( 572, 2196, 0 ) );
+		}
+	}
+}

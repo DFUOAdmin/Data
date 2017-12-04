@@ -1,0 +1,26 @@
+using System;
+
+namespace Server.Factions
+{
+	public class Jhelom : Town
+	{
+		public Jhelom()
+		{
+			Definition =
+				new TownDefinition(
+					4,
+					0x186D,
+                    "Jhelom",
+                    "Jhelom",
+					new TextDefinition( 1011438, "JHELOM" ),
+					new TextDefinition( 1011565, "TOWN STONE FOR JHELOM" ),
+					new TextDefinition( 1041038, "The Faction Sigil Monolith of Jhelom"),
+					new TextDefinition( 1041408, "The Faction Town Sigil Monolith of Jhelom"),
+					new TextDefinition( 1041417, "Faction Town Stone of Jhelom"),
+					new TextDefinition( 1041399, "Faction Town Sigil of Jhelom"),
+					new TextDefinition( 1041390, "Corrupted Faction Town Sigil of Jhelom"),
+					new Point3D( 1423, 3796, 0 ),
+					new Point3D( 1418, 3791, 0 ) );
+		}
+	}
+}

@@ -1,0 +1,42 @@
+<html>
+   <head>
+      <title>RunUO Documentation - Class Overview - PokerGame</title>
+   </head>
+   <body bgcolor="white" style="font-family: Courier New" text="#000000" link="#000000" vlink="#000000" alink="#808080">
+      <h4><a href="../namespaces/Server.Poker.html">Back to Server.Poker</a></h4>
+      <h2>PokerGame</h2>
+      (<font color="blue">static</font>) <font color="blue">void</font> EventSink_Crashed( <!-- DBG-0 --><a href="CrashedEventArgs.html">CrashedEventArgs</a> e )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> Initialize()<br>
+      (<font color="blue">ctor</font>) PokerGame( <!-- DBG-0 --><a href="PokerDealer.html">PokerDealer</a> dealer )<br>
+      <!-- DBG-0 --><a href="PokerPlayer.html">PokerPlayer</a> BigBlind( <font color="blue">get</font>; )<br>
+      <font color="blue">List</font>&lt;<a href="Card.html">Card</a>&gt; CommunityCards( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> CommunityGold( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> CurrentBet( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <!-- DBG-0 --><a href="PokerDealer.html">PokerDealer</a> Dealer( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <!-- DBG-0 --><a href="PokerPlayer.html">PokerPlayer</a> DealerButton( <font color="blue">get</font>; )<br>
+      <!-- DBG-0 --><a href="Deck.html">Deck</a> Deck( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> IsBettingRound( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> NeedsGumpUpdate( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <!-- DBG-0 --><a href="PlayerStructure.html">PlayerStructure</a> Players( <font color="blue">get</font>; )<br>
+      <!-- DBG-0 --><a href="PokerPlayer.html">PokerPlayer</a> SmallBlind( <font color="blue">get</font>; )<br>
+      <!-- DBG-0 --><a href="PokerGameState.html">PokerGameState</a> State( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <!-- DBG-0 --><a href="PokerGameTimer.html">PokerGameTimer</a> Timer( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">void</font> AddPlayer( <!-- DBG-0 --><a href="PokerPlayer.html">PokerPlayer</a> player )<br>
+      <!-- DBG-0 --><a href="PokerPlayer.html">PokerPlayer</a> AssignNextTurn()<br>
+      <font color="blue">void</font> AwardPotToWinners( <font color="blue">List</font>&lt;<a href="PokerPlayer.html">PokerPlayer</a>&gt; winners, <font color="blue">bool</font> silent )<br>
+      <font color="blue">void</font> Begin()<br>
+      <font color="blue">void</font> CheckLonePlayer()<br>
+      <font color="blue">void</font> DealHoleCards()<br>
+      <font color="blue">void</font> DoRoundAction()<br>
+      <font color="blue">void</font> DoShowdown( <font color="blue">bool</font> silent )<br>
+      <font color="blue">void</font> End()<br>
+      <font color="blue">int</font> GetIndexFor( <!-- DBG-0 --><a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">int</font> GetIndexForPlayerInRound( <!-- DBG-0 --><a href="Mobile.html">Mobile</a> from )<br>
+      <!-- DBG-0 --><a href="PokerPlayer.html">PokerPlayer</a> GetPlayer( <!-- DBG-0 --><a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">List</font>&lt;<a href="PokerPlayer.html">PokerPlayer</a>&gt; GetWinners( <font color="blue">bool</font> silent )<br>
+      <font color="blue">void</font> PokerGame_PlayerMadeDecision( <!-- DBG-0 --><a href="PokerPlayer.html">PokerPlayer</a> player )<br>
+      <font color="blue">void</font> PokerMessage( <!-- DBG-0 --><a href="Mobile.html">Mobile</a> from, <font color="blue">string</font> message )<br>
+      <font color="blue">void</font> RemovePlayer( <!-- DBG-0 --><a href="PokerPlayer.html">PokerPlayer</a> player )<br>
+      <font color="blue">void</font> ResetPlayerActions()<br>
+   </body>
+</html>

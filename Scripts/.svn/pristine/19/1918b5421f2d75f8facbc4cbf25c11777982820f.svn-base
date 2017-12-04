@@ -1,0 +1,26 @@
+using System;
+
+namespace Server.Factions
+{
+	public class Delucia : Town
+	{
+		public Delucia()
+		{
+			Definition =
+				new TownDefinition(
+					2,
+					0x186B,
+                    "Delucia",
+                    "Delucia",
+					new TextDefinition( "DELUCIA" ),
+					new TextDefinition( "TOWN STONE FOR DELUCIA" ),
+					new TextDefinition( "The Faction Sigil Monolith of Delucia"),
+					new TextDefinition( "The Faction Town Sigil Monolith Delucia"),
+					new TextDefinition( "Faction Town Stone of Delucia"),
+					new TextDefinition( "Faction Town Sigil of Delucia"),
+					new TextDefinition( "Corrupted Faction Town Sigil of Delucia"),
+					new Point3D( 5239, 4047, 37 ),
+					new Point3D( 5235, 4043, 37 ) );
+		}
+	}
+}

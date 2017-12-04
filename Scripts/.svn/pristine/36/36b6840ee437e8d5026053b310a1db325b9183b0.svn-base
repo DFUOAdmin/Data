@@ -1,0 +1,26 @@
+using System;
+
+namespace Server.Factions
+{
+	public class Moonglow : Town
+	{
+		public Moonglow()
+		{
+			Definition =
+				new TownDefinition(
+					3,
+					0x186C,
+					"Moonglow",
+					"Moonglow",
+					new TextDefinition( "MOONGLOW" ),
+					new TextDefinition( "TOWN STONE FOR MOONGLOW" ),
+					new TextDefinition( "The Faction Sigil Monolith of Moonglow" ),
+					new TextDefinition( "The Faction Town Sigil Monolith of Moonglow" ),
+					new TextDefinition( "Faction Town Stone of Moonglow" ),
+					new TextDefinition( "Faction Town Sigil of Moonglow" ),
+					new TextDefinition( "Corrupted Faction Town Sigil of Moonglow" ),
+					new Point3D( 4436, 1083, 0 ),
+					new Point3D( 4432, 1086, 0 ) );
+		}
+	}
+}

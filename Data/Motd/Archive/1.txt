@@ -1,0 +1,68 @@
+[Publish 1.0.4.0 - 07/31/12]
+
+                              Hail All to Uo : The Awakening 2012
+
+
+
+This MOTD is for Staff which are WORKING and Are now helping to set up the server and bring the shard closer to going live.  Our projected live date will be ASAP , when all the SPECIAL statics are backed up old statics taken out .  We will keep you informed as we go along with the conversion.
+
+-Texas Hold'Em Poker 
+Texas Hold'Em Poker  system Is Fixed and online.
+
+-Message of The Day
+The Message of The Day will keep All Player's Updated with all current Changes , Modifications , Addons , ect ! . The MOTD will be an IRL meaning Real time as we modify the motd file. The MOTD will be changes (not every day , but when there are Updates ,Changes, Fiexed Bug , Special Announcements ect . If you missed it on login there an easy command to read it at any moment ingame just do this ingame command [MOTD.
+
+-Bug Tracker
+PLEASE ALL USE the bug tracker type [viewbugs in game.  To add a bug to the bug tracker type [addbug in game, helping us with bugs while only make your server way better.We shall fixed them and add them in the [motd has of it been fixed  
+
+-----------------------------------------------------------------------------------------------------------
+Please All Staff members Read this
+
+-What Has to Be Done before we Launch
+Attention, Ok All Staff (Contact me or Moon)
+
+Rules for Staff’s
+1.	All Staff Grabbing there …, Msg Me or Travis Please.
+2.	Not helping Staff will be Re-Evaluated for their Staff Positions , revision will be made by  me or Travis has a Staff Member Future for this Project. 
+3.	 If you have no time please say so, that way we will not put you in any of the categories We Mentioned in part 4 
+4.	All World Builders Preparation, Testing this Project’s System Mechanic’s and Systems Themselves. 5.
+5.	 Also Give us your Time Offering and try to respect them This New measure is to assure that we will finish this Project. 
+6.	 And give out parts of this Project and know who does them (Where, When and Y, You are There so we can Launch This Project).
+7.	 Want to be Staff all Starts at Councilors (Please do not say you know it all it’s a customs shard in a UOR environment, Stop the Winning and Please READ ALL BEFORE A Complaint,)we try hard to respect UOR but we also make sure that this Project will be good for all styles of player.
+8. See John or Travis so we give out project and everyone that was assigned to them, if someone was not authorized they will be fired without notice.
+
+
+
+
+
+Here our Goal’s
+1.	What needs to be Fix or redone Tournament Arena’s and all Games that are in GreenAcres Relocated, Redone Fixed if needed and Relocated in trammel Facet.
+2.	Fix MIB, T-Maps Dungeon Chest (Loots with new semi-rare item system)
+3.	Finish Magincia Rebuilding City Buildings Roads, AddonGen Gens City roads and buildings separately
+4.	Finish Orcs Cave make cave floor and buildings separately saved has AddonGen 
+5.	Fix Paragons to last levels of dungeons (waiting on me to finish the loot drops and artifact with % of Drop rates
+6.	Fix all Dueling Arena’s we need a total of 10 placed.
+7.	Need also 2 Tournament Arena’s
+8.	Need also a New Building so we can put all our Games and Dueling, Tournaments ECT. Board’s or Renomme , with Results in Real Time Board System.
+9.	Bomb Run Relocate it and redo it in trammel Facet.
+10.	CTF  Relocate it ( use new Buildings) and redo it in trammel Facet
+11.	Upgrade Nerun's Distro System and edit’s if needed to Revision r96
+12.	Static Exporter; 
+13.	Zen Archer's Spawn Editor v2. 
+14.	Upgrade Xml Spanwer System to version 3.2.6c I think.
+
+So Please all msg John or Travis to know what needed before we can set a Launch date.
+
+Thank you all
+
+-Suggestion Box 
+The suggestion box Located in Britain on the BANK Wall has been updated slightly with cleaner code and more functionality server side in the scripts.
+
+-Rules 
+Please keep this Server , clear from spam, cheating , using exploits and so onmanyone caught abusing it will be punished for 7 to 10 Days , banned or even there account deleted, it's a game play fair and enjoy your selves . NEVER NEVER forget this is a FREE SHARD , These Rules are simple and not complicated , But in anycase if some people go over these rules they where Advised.
+
+
+-  Enjoy your Selves
+
+
+       The Awakening Management			

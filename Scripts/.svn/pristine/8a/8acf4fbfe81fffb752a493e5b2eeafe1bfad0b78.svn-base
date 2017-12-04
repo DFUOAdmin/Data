@@ -1,0 +1,26 @@
+using System;
+
+namespace Server.Factions
+{
+	public class Magincia : Town
+	{
+		public Magincia()
+		{
+			Definition =
+				new TownDefinition(
+					7,
+					0x1870,
+					"Magincia",
+					"Magincia",
+					new TextDefinition( "MAGINCIA" ),
+					new TextDefinition( "TOWN STONE FOR MAGINCIA" ),
+					new TextDefinition( "The Faction Sigil Monolith of Magincia" ),
+					new TextDefinition( "The Faction Town Sigil Monolith of Magincia" ),
+					new TextDefinition( "Faction Town Stone of Magincia" ),
+					new TextDefinition( "Faction Town Sigil of Magincia" ),
+					new TextDefinition( "Corrupted Faction Town Sigil of Magincia" ),
+					new Point3D( 3714, 2235, 20 ),
+					new Point3D( 3712, 2230, 20 ) );
+		}
+	}
+}

@@ -1,0 +1,28 @@
+[Publish 0.0.0.2 - 07/04/12]
+
+                              Hail All to Uo : The Awakening 2012
+
+This MOTD is for Staff which are WORKING and Are now helping to set up the server and bring the shard closer to going live.  Our projected live date will be ASAP , when all the SPECIAL statics are backed up old statics taken out .  We will keep you informed as we go along with the conversion.
+
+-Texas Hold'Em Poker 
+Texas Hold'Em Poker  system Is going Fine and again special thanks to the Staff.  Once we go live people will see a brand new Casino and was moved the old one was taken out the static and location (Buc Den) the new working casino for everyone to enjoy and gamble,the Texan 
+
+-Message of The Day
+The Message of The Day will keep All Player's Updated with all current Changes , Modifications , Addons , ect ! . The MOTD will be an IRL meaning Real time as we modify the motd file. The MOTD will be changes (not every day , but when there are Updates ,Changes, Fiexed Bug , Special Announcements ect . If you missed it on login there an easy command to read it at any moment ingame just do this ingame command [MOTD.
+
+-Bug Tracker
+There is a system implemented to The_Awakening.  It is the bug tracking system.  The bug tracking system is a live real time in game system that allows people to post bugs for the development team to check and fix as needed.  To access the bug tracker type [viewbugs in game.  To add a bug to the bug tracker type [addbug in game, helping us with bugs while only make your server way better.  
+
+-Suggestion Box 
+The suggestion box Located in Britain on the BANK Wall has been updated slightly with cleaner code and more functionality server side in the scripts.
+
+-Rules 
+Please keep this Server , clear from spam, cheating , using exploits and so onmanyone caught abusing it will be punished for 7 to 10 Days , banned or even there account deleted, it's a game play fair and enjoy your selves . NEVER NEVER forget this is a FREE SHARD , These Rules are simple and not complicated , But in anycase if some people go over these rules they where Advised.
+
+-  Enjoy your Selves
+
+
+       The Awakening Management						
+						
+						
+						

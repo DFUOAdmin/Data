@@ -1,0 +1,26 @@
+using System;
+
+namespace Server.Factions
+{
+	public class Minoc : Town
+	{
+		public Minoc()
+		{
+			Definition =
+				new TownDefinition(
+					2,
+					0x186B,
+					"Minoc",
+					"Minoc",
+					new TextDefinition( "MINOC" ),
+					new TextDefinition( "TOWN STONE FOR MINOC" ),
+					new TextDefinition( "The Faction Sigil Monolith of Minoc" ),
+					new TextDefinition( "The Faction Town Sigil Monolith Minoc" ),
+					new TextDefinition( "Faction Town Stone of Minoc" ),
+					new TextDefinition( "Faction Town Sigil of Minoc" ),
+					new TextDefinition( "Corrupted Faction Town Sigil of Minoc" ),
+					new Point3D( 2471, 439, 15 ),
+					new Point3D( 2469, 445, 15 ) );
+		}
+	}
+}

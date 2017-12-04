@@ -1,0 +1,43 @@
+<html>
+   <head>
+      <title>RunUO Documentation - Class Overview - PokerDealer</title>
+   </head>
+   <body bgcolor="white" style="font-family: Courier New" text="#000000" link="#000000" vlink="#000000" alink="#808080">
+      <h4><a href="../namespaces/Server.Poker.html">Back to Server.Poker</a></h4>
+      <h2>PokerDealer : <!-- DBG-1 --><a href="Mobile.html">Mobile</a>, <!-- DBG-2.2 --><a href="IHued.html">IHued</a>, <!-- DBG-2.1 --><font color="blue">IComparable</font>&lt;<a href="Mobile.html">Mobile</a>&gt;, <!-- DBG-2.2 --><a href="ISerializable.html">ISerializable</a>, <!-- DBG-2.2 --><a href="ISpawnable.html">ISpawnable</a>, <!-- DBG-2.2 --><a href="IEntity.html">IEntity</a>, <!-- DBG-2.2 --><a href="IPoint3D.html">IPoint3D</a>, <!-- DBG-2.2 --><a href="IPoint2D.html">IPoint2D</a>, <!-- DBG-2.1 --><font color="blue">IComparable</font>, <!-- DBG-2.1 --><font color="blue">IComparable</font>&lt;<a href="IEntity.html">IEntity</a>&gt;</h2>
+<h4>Nested Types: <!-- DBG-4 --><a href="DealerTarget.html">DealerTarget</a>, <!-- DBG-4 --><a href="JackpotInfo.html">JackpotInfo</a></h4>
+      (<font color="blue">static</font>) <font color="blue">int</font> Jackpot( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      (<font color="blue">static</font>) <!-- DBG-0 --><a href="JackpotInfo.html">JackpotInfo</a> JackpotWinners( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> AddPokerSeat_OnCommand( <!-- DBG-0 --><a href="CommandEventArgs.html">CommandEventArgs</a> e )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> AwardJackpot()<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> EventSink_Disconnected( <!-- DBG-0 --><a href="DisconnectedEventArgs.html">DisconnectedEventArgs</a> e )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> Initialize()<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> PokerKick_OnCommand( <!-- DBG-0 --><a href="CommandEventArgs.html">CommandEventArgs</a> e )<br>
+      (<font color="blue">ctor</font>) PokerDealer()<br>
+      (<font color="blue">ctor</font>) PokerDealer( <!-- DBG-0 --><a href="Serial.html">Serial</a> serial )<br>
+      (<font color="blue">ctor</font>) PokerDealer( <font color="blue">int</font> maxPlayers )<br>
+      <font color="blue">bool</font> Active( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> BigBlind( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> ClearSeats( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> CurrentSeatCount( <font color="blue">get</font>; )<br>
+      <!-- DBG-0 --><a href="Point3D.html">Point3D</a> ExitLocation( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <!-- DBG-0 --><a href="Map.html">Map</a> ExitMap( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <!-- DBG-0 --><a href="PokerGame.html">PokerGame</a> Game( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> MaxBuyIn( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> MaxPlayers( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> MinBuyIn( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">double</font> Rake( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> RakeMax( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">List</font>&lt;<a href="Point3D.html">Point3D</a>&gt; Seats( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> SmallBlind( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> TournamentMode( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> AddPokerSeat( <!-- DBG-0 --><a href="Mobile.html">Mobile</a> from, <!-- DBG-0 --><a href="Point3D.html">Point3D</a> seat )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Deserialize( <!-- DBG-0 --><a href="GenericReader.html">GenericReader</a> reader )<br>
+      <font color="blue">void</font> Dress()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnDelete()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnDoubleClick( <!-- DBG-0 --><a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">int</font> RakeGold( <font color="blue">int</font> gold )<br>
+      <font color="blue">bool</font> SeatTaken( <!-- DBG-0 --><a href="Point3D.html">Point3D</a> seat )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Serialize( <!-- DBG-0 --><a href="GenericWriter.html">GenericWriter</a> writer )<br>
+   </body>
+</html>

@@ -1,0 +1,26 @@
+using System;
+
+namespace Server.Factions
+{
+	public class Yew : Town
+	{
+		public Yew()
+		{
+			Definition =
+				new TownDefinition(
+					4,
+					0x186D,
+					"Yew",
+					"Yew",
+					new TextDefinition( "YEW" ),
+					new TextDefinition( "TOWN STONE FOR YEW" ),
+					new TextDefinition( "The Faction Sigil Monolith of Yew" ),
+					new TextDefinition( "The Faction Town Sigil Monolith of Yew" ),
+					new TextDefinition( "Faction Town Stone of Yew" ),
+					new TextDefinition( "Faction Town Sigil of Yew" ),
+					new TextDefinition( "Corrupted Faction Town Sigil of Yew" ),
+					new Point3D( 548, 979, 0 ),
+					new Point3D( 542, 980, 0 ) );
+		}
+	}
+}
